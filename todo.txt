@@ -1,0 +1,8 @@
+finish monster/item group spawning
+import terrain/furniture/monster json
+ensure no monsters/items/furniture on invalid terrain/furniture
+monster density comes from the oter_t overmap building type struct.  this will have to be generated as part of the code.  examine overmap.cpp:325 for examples.
+Z-level support
+computer/rope/pulley connections
+traps
+vehicles
